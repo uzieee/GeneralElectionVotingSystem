@@ -1,0 +1,52 @@
+.faq-accordion-container {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+.faq-accordion {
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: border 0.3s ease;
+}
+
+.faq-accordion:hover {
+    background-color: #fafafa;
+}
+
+.faq-accordion.Mui-expanded {
+    border: 1px solid #931c41;
+}
+
+.faq-accordion.Mui-expanded .MuiAccordionSummary-content {
+    color: #931c41;
+}
+
+.faq-accordion .MuiAccordionSummary-content {
+
+    align-items: center;
+    padding: 15px;
+}
+
+.faq-accordion .MuiAccordionDetails-root {
+    padding: 15px;
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+}
+
+.faq-accordion .MuiSvgIcon-root {
+    color: #931c41;
+}
+.party {
+    text-align: center;
+}
+
+.party-logo {
+    margin-right: 100px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
